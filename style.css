@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+ol,
+dl,
+li,
+dt,
+dd,
+p,
+div,
+span,
+img,
+a,
+table,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-size: 100%;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+article,
+header,
+footer,
+aside,
+figure,
+figcaption,
+nav,
+section {
+  display: block;
+}
+
+/*=====================
+
+  setting erea
+
+  =====================*/
+#color1 {
+  width: 100%;
+  height: 300px;
+  background: red;
+}
+
+#color2 {
+  width: 50%;
+  height: 300px;
+  background: blue;
+  float: left;
+}
+
+#color3 {
+  width: 50%;
+  height: 300px;
+  background: green;
+  float: right;
+}
